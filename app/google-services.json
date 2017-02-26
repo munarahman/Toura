@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "479896218893",
+    "firebase_url": "https://toura-533db.firebaseio.com",
+    "project_id": "toura-533db",
+    "storage_bucket": "toura-533db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479896218893:android:7efeafe67e8f6d76",
+        "android_client_info": {
+          "package_name": "com.example.muna.toura"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479896218893-ffbmah2lg29b6lcg5241lpe4ms7ff24b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muna.toura",
+            "certificate_hash": "0305493232642e5ec011b75e7fb2aa4cdd80f424"
+          }
+        },
+        {
+          "client_id": "479896218893-mjdgturav0vg3q08u3sar5m1k8cuejun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC49uJlNnzKKyBLtnVd_sWWX7KWT9P3JUU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479896218893-mjdgturav0vg3q08u3sar5m1k8cuejun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
