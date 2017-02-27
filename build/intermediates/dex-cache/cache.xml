@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6a2b8837953291b789e044578e2fe94600a1072b">
+        sha1="2d88214363958e7da9b099e6c5ce3ca255dae4b7">
         <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2cc585bb8dcae1cacf35ad5f9c48d8b1d586a58a/classes.dex" />
     </item>
     <item
@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3b0541ba2edfc1a1f859bd34da14c92df60664c7">
+        sha1="22569ee9c13cf8be15934f569899bccadec95964">
         <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fb5b3fd16a269f86e26b8685f5b59a088ebd24ff/classes.dex" />
     </item>
     <item
