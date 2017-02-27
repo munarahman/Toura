@@ -21,8 +21,18 @@ import com.google.firebase.database.ValueEventListener;
 public class ProfileActivity extends AppCompatActivity {
 
     DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
-    DatabaseReference mUserTypeRef = mRootRef.child("terryLanguage");
+    DatabaseReference mTerryRef = mRootRef.child("Terry");
+    DatabaseReference mLanguage = mTerryRef.child("language");
+    DatabaseReference mFrom = mTerryRef.child("from");
+    DatabaseReference mHobbies = mTerryRef.child("hobbies");
+    DatabaseReference mEmail = mTerryRef.child("email");
+    DatabaseReference mProfession= mTerryRef.child("profession");
+
     private EditText profileLanguage;
+    private EditText profileFrom;
+    private EditText profileHobbies;
+    private EditText profileEmail;
+    private EditText profileProfession;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +51,10 @@ public class ProfileActivity extends AppCompatActivity {
         });
 
         profileLanguage = (EditText) findViewById(R.id.profile_language);
+        profileFrom = (EditText) findViewById(R.id.profile_from);
+        profileHobbies = (EditText) findViewById(R.id.profile_hobbies);
+        profileEmail = (EditText) findViewById(R.id.profile_email);
+        profileProfession = (EditText) findViewById(R.id.profile_profession);
 
 
         // create the TabHost that will create the tabs
@@ -91,17 +105,24 @@ public class ProfileActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        mUserTypeRef.addValueEventListener(new ValueEventListener() {
+        setTextFields(mLanguage, profileLanguage);
+        setTextFields(mFrom, profileFrom);
+        setTextFields(mEmail, profileEmail);
+        setTextFields(mHobbies, profileHobbies);
+        setTextFields(mProfession, profileProfession);
+    }
+
+
+    public void setTextFields(DatabaseReference fieldName, final EditText fieldValue) {
+        fieldName.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String text = dataSnapshot.getValue(String.class);
-                profileLanguage.setText(text);
-
+                fieldValue.setText(text);
             }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-
             }
         });
     }

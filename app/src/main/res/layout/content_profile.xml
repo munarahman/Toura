@@ -67,6 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
+                android:textSize="25sp"
                 android:text="@string/profile_email" />
 
             <EditText
@@ -100,26 +101,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/text_margin"
-                android:text="@string/profile_fluency"
-                android:textSize="25sp" />
-
-            <EditText
-                android:id="@+id/profile_fluency"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:enabled="false"
-                android:textSize="25sp"
-                android:layout_margin="@dimen/text_margin"/>
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
