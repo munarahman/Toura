@@ -1,15 +1,19 @@
 package com.example.muna.toura;
 
-import android.graphics.drawable.Drawable;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TabHost;
 
 import com.google.firebase.database.DataSnapshot;
@@ -41,12 +45,44 @@ public class ProfileActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // this is for the floating Email icon
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+
+                AlertDialog.Builder descriptionAlertDialog = new AlertDialog.Builder(ProfileActivity.this);
+                LayoutInflater inflater = getLayoutInflater();
+                final View dialogView = inflater.inflate(R.layout.email_dialog, null);
+                final EditText edt = (EditText) dialogView.findViewById(R.id.edit1);
+                descriptionAlertDialog.setView(dialogView)
+
+                    // Setting Dialog Title
+                    .setTitle("Contact Tour Guide")
+
+                    .setMessage("Enter your message for the Tour Guide!")
+
+                    // Setting Positive "Yes" Button
+                    .setPositiveButton("Next",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    System.out.println(edt.getText().toString());
+                                    dialog.cancel();
+
+                                }
+                            })
+
+                    // Setting Negative "NO" Button
+                    .setNegativeButton("Cancel",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    // Write your code here to execute after dialog
+                                    dialog.cancel();
+                                }
+                            })
+
+                    .show();
+
             }
         });
 
@@ -73,9 +109,36 @@ public class ProfileActivity extends AppCompatActivity {
 
         mainTabSpec = mainTabHost.newTabSpec("Profile");
         mainTabSpec.setContent(R.id.third_tab);
-        mainTabSpec.setIndicator("Profile");
+//        mainTabSpec.setIndicator("Profile");
+
+        View view = LayoutInflater.from(this).inflate(R.layout.profile_icon,
+                mainTabHost.getTabWidget(), false);
+        ImageView imgtabF = (ImageView) view.findViewById(R.id.profile_icon);
+        imgtabF.setBackgroundResource(R.drawable.profile_icon);
+
+        mainTabSpec.setIndicator(view);
         mainTabHost.addTab(mainTabSpec);
 
+
+//        Intent intent;
+//        tabhost = getTabHost();
+//        TabHost.TabSpec tabspec;
+//        intent = new Intent().setClass(getApplicationContext(),xxxxx.class);
+
+//        tabspec = mainTabHost.newTabSpec("First");
+//        View view = LayoutInflater.from(this).inflate(R.layout.profile_icon,
+//                mainTabHost.getTabWidget(), false);
+//        ImageView imgtabF = (ImageView) view.findViewById(R.id.profile_icon);
+//        imgtabF.setBackgroundResource(R.drawable.profile_icon);
+//
+//        mainTabSpec.setIndicator(view);
+//        mainTabSpec.setContent(intent);
+//        tabhost.addTab(tabspec);
+
+        mainTabHost.setCurrentTab(2);
+        Context context = getApplicationContext();
+        int color = ContextCompat.getColor(context, R.color.selected_tab);
+        mainTabHost.getTabWidget().getChildAt(2).setBackgroundColor(color);
 
     }
 
@@ -119,6 +182,7 @@ public class ProfileActivity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String text = dataSnapshot.getValue(String.class);
                 fieldValue.setText(text);
+                System.out.println(text);
             }
 
             @Override

@@ -24,14 +24,14 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
                 android:text="@string/profile_language"
-                android:textSize="25sp" />
+                android:textSize="@dimen/text_size_profile" />
 
             <EditText
                 android:id="@+id/profile_language"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:enabled="false"
-                android:textSize="25sp"
+                android:textSize="@dimen/text_size_profile"
                 android:layout_margin="@dimen/text_margin"/>
 
         </LinearLayout>
@@ -47,14 +47,14 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
                 android:text="@string/profile_from"
-                android:textSize="25sp" />
+                android:textSize="@dimen/text_size_profile" />
 
             <EditText
                 android:id="@+id/profile_from"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:enabled="false"
-                android:textSize="25sp"
+                android:textSize="@dimen/text_size_profile"
                 android:layout_margin="@dimen/text_margin"/>
         </LinearLayout>
 
@@ -67,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
-                android:textSize="25sp"
+                android:textSize="@dimen/text_size_profile"
                 android:text="@string/profile_email" />
 
             <EditText
@@ -75,7 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:enabled="false"
-                android:textSize="25sp"
+                android:textSize="@dimen/text_size_profile"
                 android:layout_margin="@dimen/text_margin"/>
         </LinearLayout>
 
@@ -89,14 +89,14 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
                 android:text="@string/profile_profession"
-                android:textSize="25sp" />
+                android:textSize="@dimen/text_size_profile" />
 
             <EditText
                 android:id="@+id/profile_profession"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:enabled="false"
-                android:textSize="25sp"
+                android:textSize="@dimen/text_size_profile"
                 android:layout_margin="@dimen/text_margin"/>
 
         </LinearLayout>
@@ -112,14 +112,14 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
                 android:text="@string/profile_hobbies"
-                android:textSize="25sp" />
+                android:textSize="@dimen/text_size_profile" />
 
             <EditText
                 android:id="@+id/profile_hobbies"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:enabled="false"
-                android:textSize="25sp"
+                android:textSize="@dimen/text_size_profile"
                 android:layout_margin="@dimen/text_margin"/>
         </LinearLayout>
 
