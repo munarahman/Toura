@@ -25,6 +25,10 @@
         <activity
             android:name=".CreateTourActivity"
             android:label="@string/title_activity_create_tour"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewTourActivity"
+            android:label="@string/title_activity_view_tour"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

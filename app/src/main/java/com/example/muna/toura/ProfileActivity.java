@@ -36,6 +36,7 @@ public class ProfileActivity extends AppCompatActivity {
     private EditText profileEmail;
     private EditText profileProfession;
 
+    private Button newTour;
     private Button doneEditing;
     private Button seeTours;
 
@@ -61,8 +62,17 @@ public class ProfileActivity extends AppCompatActivity {
         profileEmail = (EditText) findViewById(R.id.profile_email);
         profileProfession = (EditText) findViewById(R.id.profile_profession);
 
+        newTour = (Button) findViewById(R.id.new_tour);
         doneEditing = (Button) findViewById(R.id.done_editing);
         seeTours = (Button) findViewById(R.id.see_tours);
+
+        newTour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent createTourIntent = new Intent(getApplicationContext(), CreateTourActivity.class);
+                startActivity(createTourIntent);
+            }
+        });
 
         doneEditing.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,8 +89,8 @@ public class ProfileActivity extends AppCompatActivity {
         seeTours.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent createTourIntent = new Intent(getApplicationContext(), CreateTourActivity.class);
-                startActivity(createTourIntent);
+                Intent viewTourIntent = new Intent(getApplicationContext(), ViewTourActivity.class);
+                startActivity(viewTourIntent);
             }
         });
 
@@ -161,9 +171,11 @@ public class ProfileActivity extends AppCompatActivity {
         profileProfession.setEnabled(enabled);
 
         if (enabled) {
+            newTour.setVisibility(View.VISIBLE);
             doneEditing.setVisibility(View.VISIBLE);
             seeTours.setVisibility(View.GONE);
         } else {
+            newTour.setVisibility(View.GONE);
             doneEditing.setVisibility(View.GONE);
             seeTours.setVisibility(View.VISIBLE);
         }
