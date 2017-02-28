@@ -11,13 +11,10 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.places.Place;
-import com.google.android.gms.location.places.Places;
 import com.google.android.gms.location.places.ui.PlaceAutocompleteFragment;
 import com.google.android.gms.location.places.ui.PlaceSelectionListener;
 
 public class CreateTourActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
-
-    private GoogleApiClient mGoogleApiClient;
     private PlaceAutocompleteFragment autocompleteFragment;
 
     @Override
@@ -35,13 +32,6 @@ public class CreateTourActivity extends AppCompatActivity implements GoogleApiCl
                         .setAction("Action", null).show();
             }
         });
-
-        mGoogleApiClient = new GoogleApiClient
-                .Builder(this)
-                .addApi(Places.GEO_DATA_API)
-                .addApi(Places.PLACE_DETECTION_API)
-                .enableAutoManage(this, this)
-                .build();
 
         autocompleteFragment = (PlaceAutocompleteFragment)
                 getFragmentManager().findFragmentById(R.id.google_places_autocomplete);

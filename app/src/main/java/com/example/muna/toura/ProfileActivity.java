@@ -1,5 +1,6 @@
 package com.example.muna.toura;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -9,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TabHost;
 
@@ -34,6 +36,9 @@ public class ProfileActivity extends AppCompatActivity {
     private EditText profileEmail;
     private EditText profileProfession;
 
+    private Button doneEditing;
+    private Button seeTours;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +61,28 @@ public class ProfileActivity extends AppCompatActivity {
         profileEmail = (EditText) findViewById(R.id.profile_email);
         profileProfession = (EditText) findViewById(R.id.profile_profession);
 
+        doneEditing = (Button) findViewById(R.id.done_editing);
+        seeTours = (Button) findViewById(R.id.see_tours);
+
+        doneEditing.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                toggleEditFields(false);
+                mLanguage.setValue(profileLanguage.getText().toString());
+                mFrom.setValue(profileFrom.getText().toString());
+                mHobbies.setValue(profileHobbies.getText().toString());
+                mEmail.setValue(profileEmail.getText().toString());
+                mProfession.setValue(profileProfession.getText().toString());
+            }
+        });
+
+        seeTours.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent createTourIntent = new Intent(getApplicationContext(), CreateTourActivity.class);
+                startActivity(createTourIntent);
+            }
+        });
 
         // create the TabHost that will create the tabs
         TabHost mainTabHost = (TabHost) findViewById(android.R.id.tabhost);
@@ -75,8 +102,6 @@ public class ProfileActivity extends AppCompatActivity {
         mainTabSpec.setContent(R.id.third_tab);
         mainTabSpec.setIndicator("Profile");
         mainTabHost.addTab(mainTabSpec);
-
-
     }
 
     @Override
@@ -91,13 +116,14 @@ public class ProfileActivity extends AppCompatActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch (item.getItemId()) {
+            case R.id.action_edit:
+                toggleEditFields(true);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
-        return super.onOptionsItemSelected(item);
+
     }
 
 
@@ -125,5 +151,21 @@ public class ProfileActivity extends AppCompatActivity {
             public void onCancelled(DatabaseError databaseError) {
             }
         });
+    }
+
+    private void toggleEditFields(boolean enabled) {
+        profileLanguage.setEnabled(enabled);
+        profileFrom.setEnabled(enabled);
+        profileHobbies.setEnabled(enabled);
+        profileEmail.setEnabled(enabled);
+        profileProfession.setEnabled(enabled);
+
+        if (enabled) {
+            doneEditing.setVisibility(View.VISIBLE);
+            seeTours.setVisibility(View.GONE);
+        } else {
+            doneEditing.setVisibility(View.GONE);
+            seeTours.setVisibility(View.VISIBLE);
+        }
     }
 }
