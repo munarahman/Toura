@@ -10,117 +10,154 @@
     tools:showIn="@layout/activity_profile">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
+                android:layout_weight="1"
                 android:text="@string/profile_language"
-                android:textSize="25sp" />
+                android:textSize="@dimen/text_size" />
 
             <EditText
                 android:id="@+id/profile_language"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_weight="1"
                 android:enabled="false"
-                android:textSize="25sp"
-                android:layout_margin="@dimen/text_margin"/>
+                android:textSize="@dimen/text_size" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
+                android:layout_weight="1"
                 android:text="@string/profile_from"
-                android:textSize="25sp" />
+                android:textSize="@dimen/text_size" />
 
             <EditText
                 android:id="@+id/profile_from"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_weight="1"
                 android:enabled="false"
-                android:textSize="25sp"
-                android:layout_margin="@dimen/text_margin"/>
+                android:textSize="@dimen/text_size" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
-                android:textSize="25sp"
-                android:text="@string/profile_email" />
+                android:layout_weight="1"
+                android:text="@string/profile_email"
+                android:textSize="@dimen/text_size" />
 
             <EditText
                 android:id="@+id/profile_email"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_weight="1"
                 android:enabled="false"
-                android:textSize="25sp"
-                android:layout_margin="@dimen/text_margin"/>
+                android:textSize="@dimen/text_size" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
+                android:layout_weight="1"
                 android:text="@string/profile_profession"
-                android:textSize="25sp" />
+                android:textSize="@dimen/text_size" />
 
             <EditText
                 android:id="@+id/profile_profession"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_weight="1"
                 android:enabled="false"
-                android:textSize="25sp"
-                android:layout_margin="@dimen/text_margin"/>
+                android:textSize="@dimen/text_size" />
 
         </LinearLayout>
 
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
+                android:layout_weight="1"
                 android:text="@string/profile_hobbies"
-                android:textSize="25sp" />
+                android:textSize="@dimen/text_size" />
 
             <EditText
                 android:id="@+id/profile_hobbies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/new_tour"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:enabled="false"
-                android:textSize="25sp"
-                android:layout_margin="@dimen/text_margin"/>
+                android:text="@string/new_tour"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/done_editing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/done_edit"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/see_tours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/see_tours" />
         </LinearLayout>
 
     </LinearLayout>
