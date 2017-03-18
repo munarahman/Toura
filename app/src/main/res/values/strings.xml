@@ -110,5 +110,6 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_view_tour">Tours by Terry</string>
+    <string name="title_activity_safety_maps">Map</string>
 
 </resources>

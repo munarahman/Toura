@@ -1,5 +1,6 @@
 package com.example.muna.toura;
 
+import android.app.LocalActivityManager;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -96,6 +97,11 @@ public class ProfileActivity extends AppCompatActivity {
 
         // create the TabHost that will create the tabs
         TabHost mainTabHost = (TabHost) findViewById(android.R.id.tabhost);
+//        LocalActivityManager mLocalActivityManager = new LocalActivityManager(mActivity, false);
+//        mLocalActivityManager.dispatchCreate(state); // state will be bundle your activity state which you get in onCreate
+//        mainTabHost.setup(mLocalActivityManager);
+
+
         mainTabHost.setup();
 
         TabHost.TabSpec mainTabSpec = mainTabHost.newTabSpec("First Tab");
@@ -103,15 +109,28 @@ public class ProfileActivity extends AppCompatActivity {
         mainTabSpec.setIndicator("Explore");
         mainTabHost.addTab(mainTabSpec);
 
-        mainTabSpec = mainTabHost.newTabSpec("Second Tab");
+        mainTabSpec = mainTabHost.newTabSpec("Map");
         mainTabSpec.setContent(R.id.second_tab);
-        mainTabSpec.setIndicator("Second Tab");
+        mainTabSpec.setIndicator("Map");
         mainTabHost.addTab(mainTabSpec);
 
         mainTabSpec = mainTabHost.newTabSpec("Profile");
         mainTabSpec.setContent(R.id.third_tab);
         mainTabSpec.setIndicator("Profile");
         mainTabHost.addTab(mainTabSpec);
+
+        mainTabHost.setOnTabChangedListener(new TabHost.OnTabChangeListener(){
+            @Override
+            public void onTabChanged(String tabId) {
+                System.out.println("*******TABID:" +tabId);
+                if("Explore".equals(tabId)) {
+                    //destroy earth
+                }
+                if("Map".equals(tabId)) {
+                    Intent intent = new Intent().setClass(getApplicationContext(), SafetyMapsActivity.class);
+                    startActivity(intent);
+                }
+            }});
     }
 
     @Override
