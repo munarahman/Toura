@@ -3,597 +3,606 @@
 
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.2.0_3e327494ec446ea50e2467edfad5c35d492fcca4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.2.0_c2765c21f1bcb2a900c4854bed02290b2b297432/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.2.0_55de6fb18f797988006f504fef883eedfd9acdb6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_f26e498f01ae881e4301a35a1dcd438c5afe7365/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_b98bf0e9b1a880dfebc6224df81029d545427ac3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.2.0_84444e6302feb7dac86fa4ba9d8fb0c762f273d8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.2.0_815218938ed323ae4623d1110562e982d47be8ee/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.2.0_163c1d16b941489cdef7701e63b914c130a0c102/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_82634428dd6dc6c2186a19cdfd6b6853deb48a9e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3f4483afd050f3be12db7838422309446a45daa1">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.2.0_4f393214f45a209bdf75d5acccc492bfbdd0a4c3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.2.0_4b6367be586d7e289784baba175fad3fae001cd5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.2.0_2d571f84105176615188e1835b28b3e5d715821f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_5d18479a695dbb4d4ea39287dddf29b8ec7185d7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.2.0_7faeb74435c06acd32dd7948b4fad81ee412f280/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.2.0_4c147d9055f9720a422379296312e6b0d6ac19f2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.2.0_57d8497429418fdf54109a4a19d9a2ae2d6073d0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.2.0_ef31436b9639d99829ed625992d46d14b15c64db/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_d79a62521b2681112e3eb18ffb5c7f64f189d7d4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.2.0_c93d852fe2200f6e168897da20ee8d732c14bd36/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.2.0_bc8643f922b4846b99a3b56b40d67b6103c69877/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_7741867ccace01de225ababb9f983b40a028f4e7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.2.0_442ba83c0a0a12c2824ecd724717a31e257e1c9f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_b17033f21e6a95c4e520eeb6bdc98eed0513b350/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_0f3e8bdade9031adf845ecedb36250a79e08680d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_6b4b68b2d55fd8b234cecabe204ede27905e7f29/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.2.0_c4c9b1c1041b7a176312b7f02fc850705ab6fb13/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a9493f008850469ed3fab9b28658919562882aed">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.2.0_a659e09a90516ad3982cf50da7dc9bb706fd0f46/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.2.0_d4a27cf9cfc8cb9c32879045afc0dc576d928568/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.2.0_445fcc6396636e49e47b805ae00495ac1d5217c8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b831d3902674d096189451d46fce219e2c2904b7">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.2.0_f55acfc91e74dcce9cb32c5617df5edbdd023a26/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_c4e31c3240a66ac680157470d1a779f9104e37f2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.2.0_b7fb2989d94a99bbea75c14ef7607dbcc0d23419/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_3492a9ffc8c7ce48acc889d41cb790db7fd6cabb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.2.0_4f7686fd61a6664644ae950323d6d9adfe9b6925/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.2.0_f9dd2e6981091deccc936055a8906faaa18b82e3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.2.0_0e80e6c2cd56a12daf16f6566216c3cc459c6fb5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_aea11cd13de03e46d2b20b3e940eeb8b98d3a0a5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.0_6c84df14250d2370dd4f06b897a5a3bbca94eca5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.2.0_055898d4cf0beec57d94f2b0d8478ab9a52c78b7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.2.0_7031720d2d777cdac3a0080cdf5c641cafc134cc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.2.0_2d8599000e92351b4439fad02d3265ebfd27dbde/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_0b4dc28fa49a1dd08d6ae9309f44c976d8b9517c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.2.0_c81ddbf8746aeb84333d89116f77a0e2c8019089/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="90270132a5f1a33584f453c571257dd35e728201">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.2.0_5dfd495cd5b7c1183bd54efdc127edfb3512a15c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.0_f047f564b59f9af18e78201b7d7547052496b7ef/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.2.0_d60dafaf60991829e8f9d7f17db4b1d46b64b795/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.2.0_f0bc4ffb1c3505971c49a3428677a471e32e0b24/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_61b1df520df32b461e2b7455a515b52e9e009ea7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_c5fc7950bb1f51b58d8ee8db57c93322ec8138bf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.2.0_25ff1a38911fe1a6deb1ce2f9ea59484addbc4bf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.2.0_e7fd049e9d7f5d2e6a94d9fd22e7847e518935f6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94fca868854457ede6df15c902938468c71d579e">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.2.0_28cb04be703042a2eb355769d34c22fcce50bde0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.2.0_b51dad9c3944a94074d92f042225fe556c097482/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.2.0_1a2357a4de76caf1c096d286975da69fb83499b3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/jars/classes.jar"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.2.0_d7d245150ff48c870575cc9a9d47a8c46bca0f86/classes.dex" />
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.2.0_0a7b85e60384d2f13cf00c6557a3cf2a86475f2e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.2.0/jars/classes.jar"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.2.0_d0e7d85f3428b6f179fe76e8b0f80e79a6049074/classes.dex" />
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_636a0c0e3236e3841e139846e7e19f3281be6dad/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="04909e6515974de18d1d32cbb9eb04376600f160">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_89bcee8546c080d9a79197b773a65ac0dfa09047/classes.dex" />
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.2.0_9cdc801c7fe83a794903c09e4181934ff2099e71/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.2.0/jars/classes.jar"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.2.0_4e81e5178ad431b741db2cab17de702d16de2ac6/classes.dex" />
+        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.2.0_b364f7a60b941f14bfffa94070b9177c2ced6d2e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.2.0_55e83458f839eda07fb525e3f871448bcaa8b58c/classes.dex" />
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_34903f9c16762421c2eae850e1ea1b576ff106bc/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.2.0/jars/classes.jar"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.2.0_70cc43af520d66b930aecd03a336bf530a7108b1/classes.dex" />
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_9a5b1547825d994306bc004971203b468a18510e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.2.0/jars/classes.jar"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.2.0_0a62a42cc946b252ee62a1f66118682c197d5405/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="762e33adf7a7805cfdec35d8e32941f09b7d6c7b">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2cc585bb8dcae1cacf35ad5f9c48d8b1d586a58a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.2.0_862adc613b5bdec98d151ad064503d1821f336d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.2.0_dd4243c14aeea7d7869732b2b162254bd0b0cbc0/classes.dex" />
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.2.0_c4734d552cb121a8bc66db49c9106557f3ee95d8/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="581fba9da02dd10a2642ff7db82259c6b1f7d5e9">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_93ad54386f1167473f386ec43539d87de620225b/classes.dex" />
+        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.2.0_0ed45b1ed9bc3239cca2eb929a5a06e8079c85c0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.2.0/jars/classes.jar"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.2.0_526932f8f7434292cfec43db93b7616738c49911/classes.dex" />
+        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.2.0_47bdf4b5888a8c291f67284569d07e33549cd7b5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.2.0/jars/classes.jar"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.2.0_c27603b1951d31bfe1d9401e21a65e633b25f8d0/classes.dex" />
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.2.0_0f1bd9d8d38d0ed1cc2f1bb62476e285ec90acdb/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.2.0_87a0cb31b7d5c1798b3d65edfcf3c7ce4e4bfb6c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.2.0/jars/classes.jar"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.2.0_b2fa8ba6c8e679bfb8827634af7bb8573ea04ca8/classes.dex" />
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.2.0_3b5f362dbe49ff00874d5820d45b9ac25a61a7bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_76d79f6afb7bc3c8b770f676bd43de30bbbeb93e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.2.0_eb169e0b1c613f304658b5bd8eaa3510e14dcb6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="90270132a5f1a33584f453c571257dd35e728201">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.2.0_9addecf0aed8cacd8a25882951ad57a4b53838b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.2.0_6896446361d377e161dde4fff0ba9350a2ea4259/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.0_036df36db9e959dbeddcdce6cbb0868fb8d0c60e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_48ebe478ea2ed4446d045063346b0954ac61cf3b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.2.0_2104921949b6204babd083e279243570cb1cb5fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.2.0_6ed056ee9cd0390425d74819ea33f99c95b97827/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_50dd10f122e49099bb64a687425cd235a54622b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.2.0_275378bdf8fbb31821564f0f4f14e140ea7a7feb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.2.0_6544bfd4ed01e7278ac0fc47c628c464c478f2d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.2.0_d0840f51f5e291b531d3f2088e02b2822db58da5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.2.0_bbaec5933900c16562710b9b8993894cd71a8adb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_128a515e725db92ce7ee3c36ab9d5235b6e3fae6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.2.0_e0280d1c9eb316f929af892eb863175adfde1c33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.2.0_8b18153c939528b7452714856da17263363c91de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.2.0_09c20d3366949ba3c3dc7cbf571a5842fd5107a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.2.0_b35aa0b2fc98bc4fe134a48b83c4bb3a314b141c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.2.0_de8d302df938b7604ce87d909051cf8af1c1e27d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.2.0_f42873b2b48bf02b75b84c5794a9b1623c8db44f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.2.0_06913d7c5be446607e938fc5bb90dda6d6e92ff7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.2.0_1e5b252ec5b723b9cd0b8c7e0c0b1a2ceae8eff3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.2.0_caa51411354459819a4b3b5143cdb1caa201bca9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_15ececb17e27cebf55ae051bd7643a35b01d6f68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.2.0_50ae4199cfa30d306cca8879ee52fcc5ac586ea3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.2.0_882c15f966d32becd6d6b2d7e67a15ca2cbada40/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94fca868854457ede6df15c902938468c71d579e">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.2.0_53cda64bc8e8db3f3a4469bb3ab417676a3a6676/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.2.0_8107addfc4ae275145d94f7efa723fe1f49dc865/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_d02f509b0ec0adf522c9d041f06a86733334854f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.2.0_411d41bac5decf555e9c392fd7f78061fe5c9406/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9493f008850469ed3fab9b28658919562882aed">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.2.0_639bd86c12df34cab376c937bbf55c444227eb62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.2.0_f8c929cb9d41bd1c26d56e945a84847124815ec5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.2.0_55f8736f913f431b0cd0f1f7604087dd68cbf4a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.2.0_0a202e8cb3c2620fa9c7830a3109696c26348ed6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/transition/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.2.0_5943e579edba0c378d84557700dd933c45c370a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_2d5d5795372f168c5b5d1fd3520f33fcd2e64f9f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.2.0_39b57b9aaaeecdf6c701c664732b57359f481afe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e41a052c714bf67f743c22ed74153422ad773f88">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.maps.android-android-maps-utils-0.5_80aa54830cfa32b7b86d29f4fcb310c92556702d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.2.0_5a31d6ea19da0ff8b6a169f35c3438dabfbfbe1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f4483afd050f3be12db7838422309446a45daa1">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.2.0_980e8a8e8b0f2ffc4256763426aa8c69eb254bb4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.2.0_635d7ac220036a7f418dd7bc8f50a4e7a859ed2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_7a282bc8c565a2a8c3d21ae5c2554ed9e8ea7b7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.2.0_928348f40f0ed46e8f8913f82ff43155a371d2f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.2.0_913fa89f501166396fdf87227147c097dfb18159/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a00a0f1df7b15d3c9e41c30a04e7cd707735de96">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fb5b3fd16a269f86e26b8685f5b59a088ebd24ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_1352c53a2b91aeaff16025bfb17a2612e574e83e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.2.0_757a7fee45f66b776c244afae6d7ea6f35e5cf6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.2.0_b4011d06e3e28387c967b17741838e6052bc66f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.2.0_b28810aab96e7b6ef9e4f58d4ba61912a748e658/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_5545b40b5a43f22364e08faebfc1a5594d3f1c54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.2.0_13fa337af9998d2f853e2908c78a9429a350bb1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.2.0_98eb505229a94a10201488729a46ed44a11739c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.2.0_5ab8dcc59aa2abc226b05a4442875a5a2ef398e8/classes.dex" />
     </item>
 
 </items>
