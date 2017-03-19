@@ -63,6 +63,12 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
         LatLng sydney = new LatLng(-34, 151);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
+            @Override
+            public void onMapClick(LatLng latLng) {
+                System.out.println(latLng);
+            }
+        });
 
         addHeatMap();
     }

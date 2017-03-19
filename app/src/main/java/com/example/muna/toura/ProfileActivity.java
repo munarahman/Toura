@@ -16,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TabHost;
 
 import com.google.firebase.database.DataSnapshot;
@@ -148,7 +149,15 @@ public class ProfileActivity extends AppCompatActivity {
 
         mainTabSpec = mainTabHost.newTabSpec("Profile");
         mainTabSpec.setContent(R.id.third_tab);
-        mainTabSpec.setIndicator("Profile");
+//        mainTabSpec.setIndicator("Profile");
+//        mainTabHost.addTab(mainTabSpec);
+
+        View view = LayoutInflater.from(this).inflate(R.layout.profile_icon,
+                mainTabHost.getTabWidget(), false);
+        ImageView imgtabF = (ImageView) view.findViewById(R.id.profile_icon);
+        imgtabF.setBackgroundResource(R.drawable.profile_icon);
+
+        mainTabSpec.setIndicator(view);
         mainTabHost.addTab(mainTabSpec);
 
         mainTabHost.setOnTabChangedListener(new TabHost.OnTabChangeListener(){
