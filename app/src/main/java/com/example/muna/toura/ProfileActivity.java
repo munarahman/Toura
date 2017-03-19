@@ -1,6 +1,8 @@
 package com.example.muna.toura;
 
+import android.app.AlertDialog;
 import android.app.LocalActivityManager;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -8,6 +10,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -52,8 +55,37 @@ public class ProfileActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                AlertDialog.Builder descriptionAlertDialog = new AlertDialog.Builder(ProfileActivity.this);
+                LayoutInflater inflater = getLayoutInflater();
+                final View dialogView = inflater.inflate(R.layout.email_dialog, null);
+                final EditText edt = (EditText) dialogView.findViewById(R.id.edit1);
+                descriptionAlertDialog.setView(dialogView)
+
+                        // Setting Dialog Title
+                        .setTitle("Contact Tour Guide")
+
+                        .setMessage("Enter your message for the Tour Guide!")
+
+                        // Setting Positive "Yes" Button
+                        .setPositiveButton("Next",
+                                new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        System.out.println(edt.getText().toString());
+                                        dialog.cancel();
+
+                                    }
+                                })
+
+                        // Setting Negative "NO" Button
+                        .setNegativeButton("Cancel",
+                                new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        // Write your code here to execute after dialog
+                                        dialog.cancel();
+                                    }
+                                })
+
+                        .show();
             }
         });
 
