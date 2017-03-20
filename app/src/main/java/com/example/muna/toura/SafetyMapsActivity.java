@@ -1,12 +1,16 @@
 package com.example.muna.toura;
 
+import android.location.Location;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.Status;
+import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlaceAutocompleteFragment;
 import com.google.android.gms.location.places.ui.PlaceSelectionListener;
@@ -27,14 +31,11 @@ import org.json.JSONObject;
 
 import java.io.InputStream;
 import java.util.ArrayList;
-
-
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 
-public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCallback {
+public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCallback,
+        GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
     private GoogleMap mMap;
     private HeatmapTileProvider mProvider;
@@ -42,7 +43,11 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
     private Button addButton;
     private Button doneButton;
     private boolean isAddMode = false;
-    private ArrayList<LatLng> addedAreas= new ArrayList<LatLng>();
+    private ArrayList<LatLng> addedAreas = new ArrayList<LatLng>();
+    private GoogleApiClient mGoogleApiClient;
+    private Location mLastLocation;
+    private int currentLat;
+    private int currentLng;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,10 +57,9 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
         final Button addButton = (Button) findViewById(R.id.add_button);
         final Button doneButton = (Button) findViewById(R.id.done_button);
 
-
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
-             public void onClick(View v) {
+            public void onClick(View v) {
                 System.out.println("HELLOO");
 //                mMap.clear();
 
@@ -66,14 +70,14 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
 
                 doneButton.setVisibility(View.VISIBLE);
                 addButton.setVisibility(View.GONE);
-             }
+            }
         });
 
         doneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                ArrayList<LatLng> list = null;
+                ArrayList<LatLng> list;
 
                 isAddMode = false;
 
@@ -95,11 +99,11 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
             }
         });
 
-        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
-
+        mGoogleApiClient = new GoogleApiClient.Builder(this)
+                .addConnectionCallbacks(this)
+                .addOnConnectionFailedListener(this)
+                .addApi(LocationServices.API)
+                .build();
 
         // get the search results from the auto-complete
         PlaceAutocompleteFragment autocompleteFragment = (PlaceAutocompleteFragment)
@@ -115,14 +119,12 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
                 mMap.addMarker(new MarkerOptions()
                         .position(selectedPlaceLatLng)
                         .icon(BitmapDescriptorFactory
-                            .defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+                                .defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
 
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(selectedPlaceLatLng));
                 mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(selectedPlaceLatLng, 12.0f));
 
                 addButton.setVisibility(View.VISIBLE);
-
-
             }
 
             @Override
@@ -132,6 +134,24 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
         });
     }
 
+    private void connectMap() {
+        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
+    }
+
+    @Override
+    protected void onStart() {
+        mGoogleApiClient.connect();
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        mGoogleApiClient.disconnect();
+        super.onStop();
+    }
 
     /**
      * Manipulates the map once available.
@@ -147,17 +167,20 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
+//        LatLng sydney = new LatLng(-34, 151);
 //        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
 //        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
+        LatLng currentLatLng = new LatLng(
+                mLastLocation.getLatitude(), mLastLocation.getLongitude());
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(currentLatLng));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(currentLatLng, 12.0f));
         mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
             @Override
             public void onMapClick(LatLng latLng) {
 
                 System.out.println(latLng);
                 if (isAddMode) {
-
-
                     mMap.addMarker(new MarkerOptions().position(latLng));
                     addedAreas.add(latLng);
 //                    mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
@@ -166,6 +189,29 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
         });
 
         addHeatMap();
+    }
+
+    @Override
+    public void onConnectionFailed(ConnectionResult result) {
+        System.out.println("onConnectionFailed: " + result);
+    }
+
+    @Override
+    public void onConnectionSuspended(int i) {
+        System.out.println("onConnectionSuspended: " + i);
+    }
+
+    @Override
+    @SuppressWarnings({"MissingPermission"})
+    public void onConnected(Bundle connectionHint) {
+        mLastLocation = LocationServices.FusedLocationApi.getLastLocation(
+                mGoogleApiClient);
+        System.out.println("current location: " + mLastLocation);
+        if (mLastLocation != null) {
+            System.out.println(String.valueOf(mLastLocation.getLatitude()));
+            System.out.println(String.valueOf(mLastLocation.getLongitude()));
+        }
+        connectMap();
     }
 
     private void addHeatMap() {
