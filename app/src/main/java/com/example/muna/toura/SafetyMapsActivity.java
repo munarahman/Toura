@@ -1,6 +1,7 @@
 package com.example.muna.toura;
 
 import android.location.Location;
+import android.os.Environment;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -29,6 +30,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -37,6 +42,8 @@ import java.util.Scanner;
 public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
+    private static final String storageDirName = Environment.getExternalStorageDirectory().getAbsolutePath() + "/local_storage";
+    private static final String dangerZonesPath = storageDirName + "/danger_zones.json";
     private GoogleMap mMap;
     private HeatmapTileProvider mProvider;
     private TileOverlay mOverlay;
@@ -49,10 +56,27 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
     private int currentLat;
     private int currentLng;
 
+    private File storageDir;
+    private File dangerZonesFile;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_safety_maps);
+
+        storageDir = new File(storageDirName);
+        if (!storageDir.exists() && !storageDir.isDirectory()) {
+            storageDir.mkdir();
+        }
+
+        dangerZonesFile = new File(dangerZonesPath);
+        if (!dangerZonesFile.exists() && !dangerZonesFile.isDirectory()) {
+            try {
+                dangerZonesFile.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
 
         final Button addButton = (Button) findViewById(R.id.add_button);
         final Button doneButton = (Button) findViewById(R.id.done_button);
@@ -84,17 +108,43 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
                 doneButton.setVisibility(View.GONE);
                 addButton.setVisibility(View.VISIBLE);
 
+//                    JSONObject json = new JSONObject();
+//                    try {
+//                        json.put("key1", "value1");
+//                        json.put("key2", "value2");
+//                    } catch (JSONException e) {
+//                        e.printStackTrace();
+//                    }
+
+//                   list = readItems(R.raw.police_stations);
+
+                list = fileToList();
+                list.addAll(addedAreas);
+
                 try {
-                    list = readItems(R.raw.police_stations);
-                    list.addAll(addedAreas);
+                    if (dangerZonesFile.exists()) {
+                        dangerZonesFile.delete();
+                    }
 
-                    // TODO: add the new combined list into Local Storage.
+                    FileOutputStream out = new FileOutputStream(dangerZonesFile, true);
+                    String content = "";
+                    for (LatLng dangerZone : list) {
+                        content += dangerZone.latitude + "," + dangerZone.longitude + "\n";
+                    }
+                    out.write(content.getBytes());
+                    out.flush();
+                    out.close();
 
-
-                } catch (JSONException e) {
-                    Toast.makeText(getApplicationContext(), "Problem reading list of locations.",
+                } catch (IOException e) {
+                    e.printStackTrace();
+                    Toast.makeText(getApplicationContext(), "Problem writing list of locations.",
                             Toast.LENGTH_LONG).show();
                 }
+
+                mMap.clear();
+                removeHeatMap();
+                addHeatMap();
+
 
             }
         });
@@ -215,24 +265,37 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
     }
 
     private void addHeatMap() {
-        ArrayList<LatLng> list = null;
+        ArrayList<LatLng> list = fileToList();
 
-        // Get the data: latitude/longitude positions of police stations.
-        try {
-            list = readItems(R.raw.police_stations);
-        } catch (JSONException e) {
-            Toast.makeText(this, "Problem reading list of locations.", Toast.LENGTH_LONG).show();
+        // TODO: figure out how to make a heatmap without any points (crashes now)
+        list.add(new LatLng(40.0, 50.0));
+
+        // Get the data: latitude/longitude positions of police stations
+//        try {
+//            list = readItems(R.raw.police_stations);
+//        } catch (JSONException e) {
+//            Toast.makeText(this, "Problem reading list of locations.", Toast.LENGTH_LONG).show();
+//        }
+
+        if (list.isEmpty()) {
+            throw new IllegalArgumentException("No input points.");
+        } else {
+
+            // Create a heat map tile provider, passing it the latlngs of the police stations.
+            mProvider = new HeatmapTileProvider.Builder()
+                    .data(list)
+                    .build();
+            // Add a tile overlay to the map, using the heat map tile provider.
+            mOverlay = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(mProvider));
+
+            // set the radius of each dot
+            mProvider.setRadius(75);
+
         }
+    }
 
-        // Create a heat map tile provider, passing it the latlngs of the police stations.
-        mProvider = new HeatmapTileProvider.Builder()
-                .data(list)
-                .build();
-        // Add a tile overlay to the map, using the heat map tile provider.
-        mOverlay = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(mProvider));
-
-        // set the radius of each dot
-        mProvider.setRadius(75);
+    private void removeHeatMap() {
+        mOverlay.remove();
     }
 
     private ArrayList<LatLng> readItems(int resource) throws JSONException {
@@ -249,5 +312,22 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
         return list;
     }
 
+    private ArrayList<LatLng> fileToList() {
+        ArrayList<LatLng> list = new ArrayList<LatLng>();
+        String[] line;
+        try {
+            Scanner scanner = new Scanner(new FileInputStream(dangerZonesPath));
+            while (scanner.hasNext()) {
+                line = scanner.nextLine().split(",");
+                list.add(new LatLng(
+                        Double.parseDouble(line[0]),
+                        Double.parseDouble(line[1])));
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
 
 }

@@ -1,15 +1,13 @@
 package com.example.muna.toura;
 
+import android.*;
+import android.Manifest;
 import android.app.AlertDialog;
-import android.app.LocalActivityManager;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.drawable.Drawable;
-import android.location.Location;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -20,12 +18,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TabHost;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationServices;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -34,7 +28,8 @@ import com.google.firebase.database.ValueEventListener;
 
 public class ProfileActivity extends AppCompatActivity {
 
-    public static final int MY_PERMISSION_ACCESS_COURSE_LOCATION = 11;
+    private static final int REQUEST_EXTERNAL_STORAGE = 1;
+    private static final int MY_PERMISSION_ACCESS_COURSE_LOCATION = 11;
 
     DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
     DatabaseReference mTerryRef = mRootRef.child("Terry");
@@ -67,6 +62,15 @@ public class ProfileActivity extends AppCompatActivity {
             ActivityCompat.requestPermissions(this, new String[] {
                             android.Manifest.permission.ACCESS_COARSE_LOCATION},
                     MY_PERMISSION_ACCESS_COURSE_LOCATION);
+        }
+
+        if (ContextCompat.checkSelfPermission(this,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE ) !=
+                PackageManager.PERMISSION_GRANTED ) {
+            ActivityCompat.requestPermissions(this, new String [] {
+                            android.Manifest.permission.READ_EXTERNAL_STORAGE,
+                            android.Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                    REQUEST_EXTERNAL_STORAGE);
         }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
