@@ -19,6 +19,7 @@
     <string name="tour_length">Length:</string>
     <string name="tour_description">Description:</string>
     <string name="save_tour">Save Tour</string>
+    <string name="input_text">Looking For ...</string>
 
     <string name="large_text">
         "Material is the metaphor.\n\n"

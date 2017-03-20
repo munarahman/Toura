@@ -129,7 +129,7 @@ public class ProfileActivity extends AppCompatActivity {
         });
 
         // create the TabHost that will create the tabs
-        TabHost mainTabHost = (TabHost) findViewById(android.R.id.tabhost);
+        final TabHost mainTabHost = (TabHost) findViewById(android.R.id.tabhost);
 //        LocalActivityManager mLocalActivityManager = new LocalActivityManager(mActivity, false);
 //        mLocalActivityManager.dispatchCreate(state); // state will be bundle your activity state which you get in onCreate
 //        mainTabHost.setup(mLocalActivityManager);
@@ -149,29 +149,28 @@ public class ProfileActivity extends AppCompatActivity {
 
         mainTabSpec = mainTabHost.newTabSpec("Profile");
         mainTabSpec.setContent(R.id.third_tab);
-//        mainTabSpec.setIndicator("Profile");
-//        mainTabHost.addTab(mainTabSpec);
-
-        View view = LayoutInflater.from(this).inflate(R.layout.profile_icon,
-                mainTabHost.getTabWidget(), false);
-        ImageView imgtabF = (ImageView) view.findViewById(R.id.profile_icon);
-        imgtabF.setBackgroundResource(R.drawable.profile_icon);
-
-        mainTabSpec.setIndicator(view);
+        mainTabSpec.setIndicator("Profile");
         mainTabHost.addTab(mainTabSpec);
 
-        mainTabHost.setOnTabChangedListener(new TabHost.OnTabChangeListener(){
+        mainTabHost.setCurrentTab(2);
+
+//        View view = LayoutInflater.from(this).inflate(R.layout.profile_icon,
+//                mainTabHost.getTabWidget(), false);
+//        ImageView imgtabF = (ImageView) view.findViewById(R.id.profile_icon);
+//        imgtabF.setBackgroundResource(R.drawable.profile_icon);
+//
+//        mainTabSpec.setIndicator(view);
+//        mainTabHost.addTab(mainTabSpec);
+
+
+        // on click for the Map Tab
+        mainTabHost.getTabWidget().getChildAt(1).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onTabChanged(String tabId) {
-                System.out.println("*******TABID:" +tabId);
-                if("Explore".equals(tabId)) {
-                    //destroy earth
-                }
-                if("Map".equals(tabId)) {
-                    Intent intent = new Intent().setClass(getApplicationContext(), SafetyMapsActivity.class);
-                    startActivity(intent);
-                }
-            }});
+            public void onClick(View v) {
+                Intent intent = new Intent().setClass(getApplicationContext(), SafetyMapsActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
