@@ -21,6 +21,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.TileOverlay;
 import com.google.android.gms.maps.model.TileOverlayOptions;
@@ -50,7 +51,9 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
     private Button addButton;
     private Button doneButton;
     private boolean isAddMode = false;
-    private ArrayList<LatLng> addedAreas = new ArrayList<LatLng>();
+    private boolean isDeleteMode = false;
+    private ArrayList<LatLng> addedAreas = new ArrayList<>();
+    private ArrayList<LatLng> toDelete = new ArrayList<>();
     private GoogleApiClient mGoogleApiClient;
     private Location mLastLocation;
     private int currentLat;
@@ -80,13 +83,11 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
 
         final Button addButton = (Button) findViewById(R.id.add_button);
         final Button doneButton = (Button) findViewById(R.id.done_button);
+        final Button deleteButton = (Button) findViewById(R.id.delete_button);
 
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.out.println("HELLOO");
-//                mMap.clear();
-
                 Toast.makeText(getApplicationContext(), "Please select a starting destination.",
                         Toast.LENGTH_SHORT);
 
@@ -94,32 +95,23 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
 
                 doneButton.setVisibility(View.VISIBLE);
                 addButton.setVisibility(View.GONE);
+                deleteButton.setVisibility(View.GONE);
             }
         });
 
         doneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                ArrayList<LatLng> list;
-
                 isAddMode = false;
+                isDeleteMode = false;
 
                 doneButton.setVisibility(View.GONE);
                 addButton.setVisibility(View.VISIBLE);
+                deleteButton.setVisibility(View.VISIBLE);
 
-//                    JSONObject json = new JSONObject();
-//                    try {
-//                        json.put("key1", "value1");
-//                        json.put("key2", "value2");
-//                    } catch (JSONException e) {
-//                        e.printStackTrace();
-//                    }
-
-//                   list = readItems(R.raw.police_stations);
-
-                list = fileToList();
+                ArrayList<LatLng> list = fileToList();
                 list.addAll(addedAreas);
+                list.removeAll(toDelete);
 
                 try {
                     if (dangerZonesFile.exists()) {
@@ -144,8 +136,34 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
                 mMap.clear();
                 removeHeatMap();
                 addHeatMap();
+            }
+        });
 
+        deleteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ArrayList<LatLng> list = fileToList();
 
+                for (LatLng dangerZone : list) {
+                    mMap.addMarker(new MarkerOptions()
+                            .position(dangerZone)
+                    );
+                }
+                mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+                    @Override
+                    public boolean onMarkerClick(Marker marker) {
+                        toDelete.add(marker.getPosition());
+                        marker.remove();
+                        return false;
+                    }
+                });
+                isDeleteMode = true;
+                deleteButton.setVisibility(View.GONE);
+                doneButton.setVisibility(View.VISIBLE);
+                addButton.setVisibility(View.GONE);
+
+                addedAreas = new ArrayList<>();
+                toDelete = new ArrayList<>();
             }
         });
 
@@ -267,9 +285,6 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
     private void addHeatMap() {
         ArrayList<LatLng> list = fileToList();
 
-        // TODO: figure out how to make a heatmap without any points (crashes now)
-        list.add(new LatLng(40.0, 50.0));
-
         // Get the data: latitude/longitude positions of police stations
 //        try {
 //            list = readItems(R.raw.police_stations);
@@ -277,8 +292,10 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
 //            Toast.makeText(this, "Problem reading list of locations.", Toast.LENGTH_LONG).show();
 //        }
 
+        // TODO: figure out how to make a heatmap without any points (crashes now)
+
         if (list.isEmpty()) {
-            throw new IllegalArgumentException("No input points.");
+            list.add(new LatLng(50.0, 50.0));
         } else {
 
             // Create a heat map tile provider, passing it the latlngs of the police stations.
@@ -290,7 +307,6 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
 
             // set the radius of each dot
             mProvider.setRadius(75);
-
         }
     }
 

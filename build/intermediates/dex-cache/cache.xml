@@ -3,6 +3,24 @@
 
     <item
         is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/1f103a5c4d170ea97dc9e5992574c8794870fd12/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5ee012b5902e8a3f1cbcd50cf54ca0058ff54653/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/d87c65d3c60edfa574ff5bcd665ad95880f3bdd2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e531757fe73472262c5fd9bc85456c85e285d8ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -12,12 +30,129 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/c08f9a1cf0fe5fb9670c6b38165e63bf9d0bb3f5/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_4120568f684c282df011cfe26a22855198f531b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/802fafec9703a7ea6dc9cc49f6f4c7c474fdcf16/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5470c274c781a8ead9c487747ab673fb8bbf93aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/bd1040f6d4e680ad3d877d7af57f0a2d6179c9b4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d92e30b8fca04d5f7fd7cb9ff47a704cdf0704ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_93ad54386f1167473f386ec43539d87de620225b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/a965d98ca8166f051f8a959abc2fa19b186387a9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7917a20964288650bf4cd54988bfb9eaabb8aa1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/cf817b064ae55b4a7d457921bd15fa90d8cdace4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8e3a3558f162c901a7f2723402d1f778c910054d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/ef76f71cd9fe626f17cfb2ddbcf3e1538cbf42f1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fd11b621cd8564ab7fd816967cd7c43a54dcb489/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/1bcae5477b54f7f83b0d8be2556a18f44dba67f8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d6eb65d3fa8a6e99d879688cd3e13efe3c66925/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/a05209e5647da52051bfd94ebf3b6e946a335972/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c42f405e5cf8786871228f11f01958f879a516b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/c08f9a1cf0fe5fb9670c6b38165e63bf9d0bb3f5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_693ca4df40ba0932c48edf6f0849c9830559f725/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/1f80480ba988cf0ebf0c4614ec05969423d23765/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c378f68b489a496b381f6c816714638d95c1f57f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/d4c378d7edbd310354578527f24fb7fa947901be/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_390a85e9e062ddb543237ccc5af4f01752ed0cf4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/ac5c3f22b3b004e6218afc0c49edea217d7fedd9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6e46f5d083423e815f0cdb8ef98417b77e82d1ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/c67ce197c47ece7b71f00795dad9eec5683204de/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ce6d6e3341751eb7c3a63c0315b075f9aa7199c4/classes.dex" />
     </item>
 
 </items>
