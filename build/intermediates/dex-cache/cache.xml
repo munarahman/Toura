@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="bc0f87b8a26cca6d0cc94b0b64f1e8635e170b2a">
+        sha1="09408926703381e2dc13da3fabbf6c2b3f1114d5">
         <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_89bcee8546c080d9a79197b773a65ac0dfa09047/classes.dex" />
     </item>
     <item
@@ -39,12 +39,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/christopherarnold/.android/build-cache/d29b4f89f80b835ff0f4e6fdc342843060ef22b8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e753ea8d0a2dea270da7d96a7d6e9d2e9c10f94">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2668ac96264b38f4e7e1cb3fbf9ed3118a27b7db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/christopherarnold/.android/build-cache/802fafec9703a7ea6dc9cc49f6f4c7c474fdcf16/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
         <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5470c274c781a8ead9c487747ab673fb8bbf93aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christopherarnold/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha8/constraint-layout-solver-1.0.0-alpha8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="80c371a4fd5e1b77f0e3a25b171356878543ffdd">
+        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha8_97e9ebed4cbdbe01ef0eb2eb32a1495c91b79cd2/classes.dex" />
     </item>
     <item
         is-multidex="true"
