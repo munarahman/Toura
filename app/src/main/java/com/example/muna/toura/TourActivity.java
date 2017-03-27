@@ -1,7 +1,11 @@
 package com.example.muna.toura;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
+import android.view.View;
+import android.widget.TabHost;
 import android.widget.TextView;
 
 import java.util.Arrays;
@@ -46,13 +50,62 @@ public class TourActivity extends AppCompatActivity {
         tours.put(t6[0], t6);
         tours.put(t7[0], t7);
 
+        TextView tourGuide = (TextView) findViewById(R.id.tour_guide);
+
         if (tours.containsKey(tourName)) {
-            String[] tour = tours.get(tourName);
-            ((TextView) findViewById(R.id.tour_guide)).setText(tour[1]);
+            final String[] tour = tours.get(tourName);
+            tourGuide.setText(Html.fromHtml("<u>" + tour[1] + "</u>"));
             ((TextView) findViewById(R.id.weekday)).setText(tour[2]);
             ((TextView) findViewById(R.id.duration)).setText(tour[3]);
             ((TextView) findViewById(R.id.meeting_place)).setText(tour[4]);
             ((TextView) findViewById(R.id.description)).setText(tour[5]);
+
+            tourGuide.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent tourGuideIntent = new Intent(TourActivity.this, TourGuideActivity.class);
+                    tourGuideIntent.putExtra("tourGuide", tour[1]);
+                    startActivity(tourGuideIntent);
+                }
+            });
         }
+
+        // create the TabHost that will create the tabs
+        final TabHost mainTabHost = (TabHost) findViewById(android.R.id.tabhost);
+        mainTabHost.setup();
+
+        TabHost.TabSpec mainTabSpec = mainTabHost.newTabSpec("First Tab");
+        mainTabSpec.setContent(R.id.first_tab);
+        mainTabSpec.setIndicator("Explore");
+        mainTabHost.addTab(mainTabSpec);
+
+        mainTabSpec = mainTabHost.newTabSpec("Map");
+        mainTabSpec.setContent(R.id.second_tab);
+        mainTabSpec.setIndicator("Map");
+        mainTabHost.addTab(mainTabSpec);
+
+        mainTabSpec = mainTabHost.newTabSpec("Profile");
+        mainTabSpec.setContent(R.id.third_tab);
+        mainTabSpec.setIndicator("Profile");
+        mainTabHost.addTab(mainTabSpec);
+
+        mainTabHost.setCurrentTab(0);
+
+        // on click for the Map Tab
+        mainTabHost.getTabWidget().getChildAt(1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent().setClass(getApplicationContext(), SafetyMapsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mainTabHost.getTabWidget().getChildAt(2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent().setClass(getApplicationContext(), ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
