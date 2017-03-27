@@ -16,7 +16,7 @@
 
     <string name="title_activity_create_tour">New Tour</string>
     <string name="tour_location">Location:</string>
-    <string name="tour_length">Length:</string>
+    <string name="tour_length">Duration:</string>
     <string name="tour_description">Description:</string>
     <string name="save_tour">Save Tour</string>
     <string name="input_text">Looking For ...</string>

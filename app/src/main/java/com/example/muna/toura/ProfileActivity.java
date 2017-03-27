@@ -192,6 +192,14 @@ public class ProfileActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        mainTabHost.getTabWidget().getChildAt(0).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent().setClass(getApplicationContext(), ExploreActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

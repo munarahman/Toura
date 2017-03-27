@@ -3,174 +3,615 @@
 
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/1f103a5c4d170ea97dc9e5992574c8794870fd12/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/fac7b5e90d0ef2d31b3fe66265365f2730d1659e/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5ee012b5902e8a3f1cbcd50cf54ca0058ff54653/classes.dex" />
+        sha1="abf7c64e0bbaaa931738856734f76646ae62d9a5">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_660c2c0f55b822be4ec6bd70bbe6cb722bbe5f37/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/d87c65d3c60edfa574ff5bcd665ad95880f3bdd2/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/e687b619a902c8e7945f584f710e607d4fd3244b/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e531757fe73472262c5fd9bc85456c85e285d8ef/classes.dex" />
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3d257ccf2ba37ea90fa9581087376190660c14b8/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/Muna/.android/build-cache/c3793297a8be869b87192a8451f89dbc91cede9a/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="09408926703381e2dc13da3fabbf6c2b3f1114d5">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_89bcee8546c080d9a79197b773a65ac0dfa09047/classes.dex" />
+        sha1="44098e691b36776973374ac03afe0225b17f8a74">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a8d21e186915549d63e35303bbe4cf74f10dfc14/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/c08f9a1cf0fe5fb9670c6b38165e63bf9d0bb3f5/output/jars/libs/internal_impl-24.0.0.jar"
+        jar="/Users/Muna/.android/build-cache/31b52e2a83c9556c1682b90f270159fd2bb8f63a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d67042688d34474a82fe4ef4c6514ef471377ef">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3c47bf886f2e10daa8bd6cd8f1a06a3aee4ee15e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/6564b28ab8a27212223e79d11e90bc825a21d58c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b32372f6821e003ae24cd3389bdd7925247f100">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d503935394fb35e5188b6e61e8dda69367a95e59/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/472575da3fb4db82ba34e927df0d1ecc1dac9fe4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7e49337762e9244f4eaf0a73e778570b37074943/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/ab5a70e746f568140d2a548e8663a97a62cc2be8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6818f5804ca0b5eb089d902458faea4179eca1d">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3130f54983311ed174cf7009333fbc1efbc353f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/1b0fc8d9d6d9e86a3d70341abcf343c841d49361/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b2890978095201105fd85877739e59e7da8833c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/a53a8e85cc6419741d4bc0ddddad9a4fe0ba7757/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ee29abfc804ebd51d65a4bde424c0ee74363939">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_906fb7958e1a0dc065a8109ffa3b1c8f83d51b5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/301214dad75450da503040b04360b1a9233b2979/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4b2d0d59e16250e780586f5ec33ce4f4f5bba38f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/cacdd8725d1eb21dfd12bc45a1b4aa2a555ccba8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c578e51c76c7933b123600b3532702ca7a3b572e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/a19505cb08215befd10560902177a3d97fd3d9da/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="125bce1fb2d481b964fabf75f0949957ebe9ecd1">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2cf9f67a8e038d294b995b96d0f6a0623e6afef4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/a8455c69a10dee68476d369fc77e0fbab95a4848/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fa53ce054b233b38daedc557aad48f5b18dfda56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/ea62c3c387cceab6d4eea3df6250aced28ade774/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3075bc3d2d3b2d9d8a4671210d5149a05361f99c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/e7b23252b588e8670c80e8d821112d1cb318cd0b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e427e94480fbe5d29915ce572ec9fac8cf5ff877/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/2ad66c6727f8aa9b1036f2031208d6cbe4898541/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c74dab42788b458960618238f338d324b6f0656">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e746e58f016beaff6f43a58851cd3eb69783532f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="149f3b1adc81d0e5189293e1f3620af56cd9f0db">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2cc585bb8dcae1cacf35ad5f9c48d8b1d586a58a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/c39a5e58acb901d3a3432b966af58d0d56bf3bcb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efae381df589f3d4977c346c8a980f030315bb8b">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_72daf9080d3163c2ec97832b7d5d5b358bfcebf5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/410091fd8d3eb05d91ae02fdb887aca51a2d206b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8dfe54fbaf4f2a27d395ddf806d0c011170999e0">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e2848d74e19561e120b9f85c1688e7c1be98c59d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/2cfc1635954bc8a29342aa10b5ab69301d493db1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0bb2f0934fa55799508ba58ffc9ba579b35744b8">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b37342d1d80609d8f0a44fcb364cb4787f65146/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/5ae6155ff494ab016f559f1a55851954787c7057/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="536fd6afd6e1280607c5d70306eb32d385db7964">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_34e2d4bedc1c664837c810949319f377a6ba7ca1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/d59049ef6597fec0e4fff3a0bc720c34eff8dcdf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_83555070b62aac868e61333f178d4b3dccb304fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/4367714b4fdab473409713635453003d544cda7b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e40733873a98f8f51fcc8178f32c15e64a28bbb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/8f89ecfc42b11d4cf1c42726015ba77f2dcbf5e4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2af5cff05b6d40de56d91fc208758dac328211f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/db0c54e8e53f898271247d21a3ada96efac62f87/output/jars/libs/internal_impl-24.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_4120568f684c282df011cfe26a22855198f531b1/classes.dex" />
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_11bd1532ad9c7418e7e3d4caf816919cefe372c8/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/d29b4f89f80b835ff0f4e6fdc342843060ef22b8/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/53cd2e4bd05c15c055c452cbace194d0caac6d95/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0e753ea8d0a2dea270da7d96a7d6e9d2e9c10f94">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2668ac96264b38f4e7e1cb3fbf9ed3118a27b7db/classes.dex" />
+        sha1="12032271e6be735e811ad529cb08ff066c381640">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_af6ca3dd2b6a6272ab5a8d9dea41527d73b25f13/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/802fafec9703a7ea6dc9cc49f6f4c7c474fdcf16/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/38fb82ce16d9e0470c7794b194c01c73480d6336/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5470c274c781a8ead9c487747ab673fb8bbf93aa/classes.dex" />
+        sha1="dbae35d7fc3427d30bef0037bdf61ad0d8d984f8">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3f2b0a8c6648ede6f160e45c38f36452299faedd/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha8/constraint-layout-solver-1.0.0-alpha8.jar"
+        jar="/Users/Muna/.android/build-cache/2da112a43a24b7658a664318ab81d7d188093aef/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="80c371a4fd5e1b77f0e3a25b171356878543ffdd">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha8_97e9ebed4cbdbe01ef0eb2eb32a1495c91b79cd2/classes.dex" />
+        sha1="c3c7f923e1df76640acb3a24823600f034a5d226">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aa0ee88e0b742ae6838b2be4a91651064e54f033/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/bd1040f6d4e680ad3d877d7af57f0a2d6179c9b4/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/48cbdfc1d5740949f9f6732c110c6f3b35416dd0/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d92e30b8fca04d5f7fd7cb9ff47a704cdf0704ff/classes.dex" />
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dac97e5c93439567f88def7d9ef65168f3cfd47c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/Muna/.android/build-cache/34540b2195eed031683a7eb4ab043bb5eb2d66ab/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_93ad54386f1167473f386ec43539d87de620225b/classes.dex" />
+        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_59f729d537c06b7bb9fecb98c610773ee2a01298/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/a965d98ca8166f051f8a959abc2fa19b186387a9/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/ad053b4ce322f6f5f4f41c6326df4f4faa752595/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7917a20964288650bf4cd54988bfb9eaabb8aa1d/classes.dex" />
+        sha1="1f9df8b2bfff203397548ee400789154968adfe8">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b17567074a334d0491af3c636c14c006fe1efaff/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/cf817b064ae55b4a7d457921bd15fa90d8cdace4/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/6cc5f722bd2bcd7d993d0778a872cc1084cc6058/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8e3a3558f162c901a7f2723402d1f778c910054d/classes.dex" />
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_949a99884b8b52dd6882902fed08c8ac386c3d22/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/ef76f71cd9fe626f17cfb2ddbcf3e1538cbf42f1/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/b4821bdd7d9a750607812bfd0e020cb53fe58e86/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fd11b621cd8564ab7fd816967cd7c43a54dcb489/classes.dex" />
+        sha1="e4851331b3944beb6e7f77316a7661f53781da62">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d162124af2b8fc9ea76b535d0f2a1a6a8d0d3c4/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/1bcae5477b54f7f83b0d8be2556a18f44dba67f8/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/dacd4a88a34ed9eebf81eea94be8b6b8728987c6/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d6eb65d3fa8a6e99d879688cd3e13efe3c66925/classes.dex" />
+        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_08ea7a83a1d68d79698fbbd2000a9d815b96f0bb/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/a05209e5647da52051bfd94ebf3b6e946a335972/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/04803e650aa081a9b702c3bd9b0093f982802332/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e51c2f662bb72419632af5192553c37e33890a99">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c42f405e5cf8786871228f11f01958f879a516b7/classes.dex" />
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7662d1250fb9a66d807872a33d77dae95dfbc8c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/c08f9a1cf0fe5fb9670c6b38165e63bf9d0bb3f5/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/eca8153a8c259baafec3b0143e5ca256c272604a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cce5792fa30ee8520620f298bf920309423b180f">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b76aecb79c6cda7763b079b1b637c35c0722f02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/ef9efa95afee04794003d77fdc2a787e0fe8bb0c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfa47e1b140562d47bc670629d07e209cd8b02c4">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0ee598e4d112604bb014c0a56f4757cdbf686938/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/625cd7538a4a6de68d34074bbe490a6500bce309/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb004ea36f8802bad30000e286c177691740a322">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_26c44aa74aaeaa797331c25a39c1977438e4e2cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/d212b6a3d0f53e98605d7138de79cce0460fcba5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9311c1ac2e8a9f0db48dc143550ac001f9d6ba8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/51b735f50bdec3de866b9cddf85633e2b7ead7e3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d81a3b0a16f48b4456f442552b62f4b1a472ce24">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f23b098dd01d759943e516699538674650d03cd2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/ed507c4b8f00091f4bcd8016dec635578de9eb0c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_19be20326e318d88b6cf1d88f2d35ef8abfedc95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/f6d8900d809b92dfe8ec2d3b83296817476542ed/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3826817a4de1daa170c33bbc04db24ab6826bd5">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03b27e7b4bd04855f24f7e436867c6e5f9074002/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/db0c54e8e53f898271247d21a3ada96efac62f87/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_693ca4df40ba0932c48edf6f0849c9830559f725/classes.dex" />
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55fc8009ba7607374a5d5d8804b716f15b6f21bc/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/1f80480ba988cf0ebf0c4614ec05969423d23765/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/7b050004f74c1dcbf7a61e04969069028a7ee344/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b136ac09f209c1d91fec7db8518e33d4373c8f39">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d19f2febdc21f4cd468e582ac9b5bb2d9217d548/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/27c8b9b0e6dccef9792687f0ef7e1be95b6e5d2e/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c378f68b489a496b381f6c816714638d95c1f57f/classes.dex" />
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e8e95e2317c2ef30061d347b09d1515f0c6b8c93/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/d4c378d7edbd310354578527f24fb7fa947901be/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/9bee7d6712c43a0f44e7d521f3ae2a12e1a1b878/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_390a85e9e062ddb543237ccc5af4f01752ed0cf4/classes.dex" />
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c79bb712d698f1f492f80f001b3b51f90ed2e747/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/ac5c3f22b3b004e6218afc0c49edea217d7fedd9/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/8175d31298555d1ee71fc3f7f5bcaf36086779d5/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6e46f5d083423e815f0cdb8ef98417b77e82d1ce/classes.dex" />
+        sha1="0e753ea8d0a2dea270da7d96a7d6e9d2e9c10f94">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55f677da107dfaafe6a6e3077f95bc786028eed9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/.android/build-cache/c67ce197c47ece7b71f00795dad9eec5683204de/output/jars/classes.jar"
+        jar="/Users/Muna/.android/build-cache/d073eda4c14e2863dbd811cc177bfa25e4a80e4a/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ce6d6e3341751eb7c3a63c0315b075f9aa7199c4/classes.dex" />
+        sha1="c7ba26433d9e9f4429d83ff65ad79bfc801dc00a">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6a1455a86423842a6c92463624781041c361aa28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/a3bdd14e51b3575e947b0b65d3a64708d2ff676d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="825c2e97a00df4df5b0f3081faa4fd6280cd7c72">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5ba9fe2e38d39181cb6a8a56a480a66837aae9e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/f1a5107e71c80e719be5ee567dccc3f212397923/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a0128920f8c38c8c580f88a3a286e80ccd7db786/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/c21121e7c28d58569d6aa9a028458a8adcb31e9a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_411bcb38c930129339a587f766ead43bbaf4e716/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.0_ac2c2b40fc6564a59ff05cb13d3fb104f36e0f3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/6e0c4f75d03ded652368ba9e7574d66d7fdf6efb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e684205744f814a73b7752545e0661330415c9e">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d96a1b9adc03916809db0b2ca7ceca12529c10b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/3533230523db7bc920482c9160d1f0a22b414e5c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d395c5142f474891c7750f13b6a85d14682f166b">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a18f017c3dfbe09b3a41f47baba4ee311adb9a9e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/66f7c198c6f1cad477e4c73c7ab1be7def05b276/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_00c640b265e6f0d650805b3ed0ebae782c8f4df6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/b8b51e56dfdd2443b20fe250273a3e336e567609/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb115a110992b254f767f337da233071f6f940b8">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7acecee4fac056b5c76c86082dd501f3a9dfa0a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/d5be01368ba96f9dcf56228758f9e28469b665c1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9f8c0164b7d166576a611fb1618f22e8cdb5fd48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/317e7d246dc9a357d7acbde662fdd3ff340d5884/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9697c12ac1701ae252295e43036ee9d92fa74df0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/43c44515766ad102604f5fd46f101121dc965d90/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_be14b0f4afb4cddf72a9d61da3dd36b31669978d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fb5b3fd16a269f86e26b8685f5b59a088ebd24ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/2f838957a7821c02a38d021e3ee4561abf21cd9e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4153b131eaf8831bc997aa991a4d8174a3bd1e3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/9a39e46b3d3f02c6a2dd8112d99b485b79bd42ea/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_db9d388f9420cfccbbc3b8d0fb45a3f21c20f705/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/e1577fe37aac394389570b43fe44443267cd8b77/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f233cb35a6ea92364130d2d48791c461ec65983">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_faed65df263c0bb35e0fa0d5ddc3399d620f21da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/72b7ece15cebedaec763db52fe2a697c6b54b97a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c32e554b7ffe59b4b54abfba014ac35a5aeba187/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha8/constraint-layout-solver-1.0.0-alpha8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="80c371a4fd5e1b77f0e3a25b171356878543ffdd">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha8_5f6fc3e34ecde49eaa4c49c2556751ca1c68e667/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/35cab07b9343bdc9b72dbf45e894da42d35abe4a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e53546e6ab6857bff725151000abf00892322d52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/70b591304ff5a79fed2eb6bae78db7a5721abc5b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_78757280ddcb636ad23426cefc5039d0a9b538f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/.android/build-cache/a96547549c135b972cbaae0955fc588a90a8d0f2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_790addb3719596bf2597de3fb01fd5695dfc4cf3/classes.dex" />
     </item>
 
 </items>
