@@ -1,6 +1,5 @@
 package com.example.muna.toura;
 
-import android.*;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.v4.app.ActivityCompat;
@@ -100,10 +99,10 @@ public class ExploreActivity extends AppCompatActivity {
         tourListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-//                Intent tourIntent = new Intent(TourListActivity.this, ExploreActivity.class);
-//                String tour = tourList.get((int) adapterView.getItemIdAtPosition(i));
-//                tourIntent.putExtra("tour", tour);
-//                startActivity(tourIntent);
+                Intent tourIntent = new Intent(ExploreActivity.this, TourActivity.class);
+                String tour = tourList.get((int) adapterView.getItemIdAtPosition(i));
+                tourIntent.putExtra("tour", tour);
+                startActivity(tourIntent);
             }
         });
     }
