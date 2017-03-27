@@ -8,12 +8,26 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TabHost;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class ExploreActivity extends AppCompatActivity {
 
     private static final int REQUEST_EXTERNAL_STORAGE = 1;
     private static final int MY_PERMISSION_ACCESS_COURSE_LOCATION = 11;
+
+    private ListView tourListView;
+    private List<String> tourList = new ArrayList<>(Arrays.asList(
+            "Kensington Market", "Distillery District", "Scarborough Bluffs",
+            "Centre Island", "Gay Village", "Pacific Mall", "The Junction"));
+    ArrayAdapter<String> adapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +51,8 @@ public class ExploreActivity extends AppCompatActivity {
                     REQUEST_EXTERNAL_STORAGE);
         }
 
+        setupTourList();
+
         // create the TabHost that will create the tabs
         final TabHost mainTabHost = (TabHost) findViewById(android.R.id.tabhost);
         mainTabHost.setup();
@@ -58,8 +74,6 @@ public class ExploreActivity extends AppCompatActivity {
 
         mainTabHost.setCurrentTab(0);
 
-
-        // on click for the Map Tab
         // on click for the Map Tab
         mainTabHost.getTabWidget().getChildAt(1).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,6 +88,22 @@ public class ExploreActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent().setClass(getApplicationContext(), ProfileActivity.class);
                 startActivity(intent);
+            }
+        });
+    }
+
+    private void setupTourList() {
+        tourListView = (ListView) findViewById(R.id.tour_list);
+        adapter = new ArrayAdapter<>(this, android.R.layout.simple_expandable_list_item_1,
+                tourList);
+        tourListView.setAdapter(adapter);
+        tourListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+//                Intent tourIntent = new Intent(TourListActivity.this, ExploreActivity.class);
+//                String tour = tourList.get((int) adapterView.getItemIdAtPosition(i));
+//                tourIntent.putExtra("tour", tour);
+//                startActivity(tourIntent);
             }
         });
     }
