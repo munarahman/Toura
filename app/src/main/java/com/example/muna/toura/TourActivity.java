@@ -79,13 +79,18 @@ public class TourActivity extends AppCompatActivity {
         mainTabSpec.setIndicator("Explore");
         mainTabHost.addTab(mainTabSpec);
 
-        mainTabSpec = mainTabHost.newTabSpec("Map");
+        mainTabSpec = mainTabHost.newTabSpec("Second Tab");
         mainTabSpec.setContent(R.id.second_tab);
+        mainTabSpec.setIndicator("Guides");
+        mainTabHost.addTab(mainTabSpec);
+
+        mainTabSpec = mainTabHost.newTabSpec("Third Tab");
+        mainTabSpec.setContent(R.id.third_tab);
         mainTabSpec.setIndicator("Map");
         mainTabHost.addTab(mainTabSpec);
 
-        mainTabSpec = mainTabHost.newTabSpec("Profile");
-        mainTabSpec.setContent(R.id.third_tab);
+        mainTabSpec = mainTabHost.newTabSpec("Forth Tab");
+        mainTabSpec.setContent(R.id.forth_tab);
         mainTabSpec.setIndicator("Profile");
         mainTabHost.addTab(mainTabSpec);
 
@@ -103,7 +108,7 @@ public class TourActivity extends AppCompatActivity {
         mainTabHost.getTabWidget().getChildAt(1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent().setClass(getApplicationContext(), SafetyMapsActivity.class);
+                Intent intent = new Intent().setClass(getApplicationContext(), TourGuideListActivity.class);
                 startActivity(intent);
             }
         });
@@ -111,7 +116,15 @@ public class TourActivity extends AppCompatActivity {
         mainTabHost.getTabWidget().getChildAt(2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent().setClass(getApplicationContext(), TourGuideListActivity.class);
+                Intent intent = new Intent().setClass(getApplicationContext(), SafetyMapsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mainTabHost.getTabWidget().getChildAt(3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent().setClass(getApplicationContext(), ProfileActivity.class);
                 startActivity(intent);
             }
         });
