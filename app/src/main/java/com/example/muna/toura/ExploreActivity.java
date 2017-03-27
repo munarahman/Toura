@@ -71,9 +71,22 @@ public class ExploreActivity extends AppCompatActivity {
         mainTabSpec.setIndicator("Profile");
         mainTabHost.addTab(mainTabSpec);
 
+//        mainTabSpec = mainTabHost.newTabSpec("Forth");
+//        mainTabSpec.setContent(R.id.forth_tab);
+//        mainTabSpec.setIndicator("Forth");
+//        mainTabHost.addTab(mainTabSpec);
+
         mainTabHost.setCurrentTab(0);
 
         // on click for the Map Tab
+        mainTabHost.getTabWidget().getChildAt(0).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent().setClass(getApplicationContext(), ExploreActivity.class);
+                startActivity(intent);
+            }
+        });
+
         mainTabHost.getTabWidget().getChildAt(1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -85,7 +98,7 @@ public class ExploreActivity extends AppCompatActivity {
         mainTabHost.getTabWidget().getChildAt(2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent().setClass(getApplicationContext(), ProfileActivity.class);
+                Intent intent = new Intent().setClass(getApplicationContext(), TourGuideListActivity.class);
                 startActivity(intent);
             }
         });

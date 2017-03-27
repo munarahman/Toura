@@ -59,7 +59,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TourActivity" />
-        <activity android:name=".TourGuideActivity"></activity>
+        <activity android:name=".TourGuideActivity" />
+        <activity android:name=".TourGuideListActivity"></activity>
     </application>
 
 </manifest>
