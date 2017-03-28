@@ -98,7 +98,8 @@ public class ExploreActivity extends AppCompatActivity {
         mainTabHost.getTabWidget().getChildAt(2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent().setClass(getApplicationContext(), SafetyMapsActivity.class);
+//                Intent intent = new Intent().setClass(getApplicationContext(), SafetyMapsActivity.class);
+                Intent intent = new Intent().setClass(getApplicationContext(), PublicSafetyMapActivity.class);
                 startActivity(intent);
             }
         });

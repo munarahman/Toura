@@ -1,11 +1,14 @@
 package com.example.muna.toura;
 
+import android.content.Intent;
 import android.location.Location;
 import android.os.Environment;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TabHost;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -40,7 +43,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
-public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCallback,
+public class SafetyMapsActivity extends AppCompatActivity implements OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
     private static final String storageDirName = Environment.getExternalStorageDirectory().getAbsolutePath() + "/local_storage";
@@ -66,6 +69,31 @@ public class SafetyMapsActivity extends FragmentActivity implements OnMapReadyCa
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_safety_maps);
+
+        // create the TabHost that will create the tabs
+        final TabHost mainTabHost = (TabHost) findViewById(android.R.id.tabhost);
+        mainTabHost.setup();
+
+        TabHost.TabSpec mainTabSpec = mainTabHost.newTabSpec("First Tab");
+        mainTabSpec.setContent(R.id.webview_maps);
+        mainTabSpec.setIndicator("Public Map");
+        mainTabHost.addTab(mainTabSpec);
+
+        mainTabSpec = mainTabHost.newTabSpec("Second Tab");
+        mainTabSpec.setContent(R.id.user_maps);
+        mainTabSpec.setIndicator("User Data Map");
+        mainTabHost.addTab(mainTabSpec);
+
+        mainTabHost.setCurrentTab(1);
+
+
+        mainTabHost.getTabWidget().getChildAt(0).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent().setClass(getApplicationContext(), PublicSafetyMapActivity.class);
+                startActivity(intent);
+            }
+        });
 
         storageDir = new File(storageDirName);
         if (!storageDir.exists() && !storageDir.isDirectory()) {

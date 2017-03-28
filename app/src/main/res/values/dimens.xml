@@ -3,4 +3,5 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">5dp</dimen>
     <dimen name="text_size">16sp</dimen>
+    <dimen name="app_tab_height">60dp</dimen>
 </resources>
