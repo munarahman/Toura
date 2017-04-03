@@ -8,9 +8,7 @@ import android.view.View;
 import android.widget.TabHost;
 import android.widget.TextView;
 
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class TourActivity extends AppCompatActivity {
@@ -36,7 +34,7 @@ public class TourActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tour_list);
+        setContentView(R.layout.activity_tour);
 
         tourName = (String) getIntent().getSerializableExtra("tour");
         ((TextView) findViewById(R.id.tour_name)).setText(tourName);
