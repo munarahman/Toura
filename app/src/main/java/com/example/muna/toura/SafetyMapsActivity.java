@@ -233,7 +233,7 @@ public class SafetyMapsActivity extends AppCompatActivity implements OnMapReadyC
     private void connectMap() {
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+                .findFragmentById(R.id.user_map);
         mapFragment.getMapAsync(this);
     }
 
@@ -261,11 +261,6 @@ public class SafetyMapsActivity extends AppCompatActivity implements OnMapReadyC
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-
-        // Add a marker in Sydney and move the camera
-//        LatLng sydney = new LatLng(-34, 151);
-//        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-//        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
 
         LatLng currentLatLng = new LatLng(
                 mLastLocation.getLatitude(), mLastLocation.getLongitude());
@@ -313,13 +308,6 @@ public class SafetyMapsActivity extends AppCompatActivity implements OnMapReadyC
     private void addHeatMap() {
         ArrayList<LatLng> list = fileToList();
 
-        // Get the data: latitude/longitude positions of police stations
-//        try {
-//            list = readItems(R.raw.police_stations);
-//        } catch (JSONException e) {
-//            Toast.makeText(this, "Problem reading list of locations.", Toast.LENGTH_LONG).show();
-//        }
-
         // TODO: figure out how to make a heatmap without any points (crashes now)
 
         if (list.isEmpty()) {
@@ -340,20 +328,6 @@ public class SafetyMapsActivity extends AppCompatActivity implements OnMapReadyC
 
     private void removeHeatMap() {
         mOverlay.remove();
-    }
-
-    private ArrayList<LatLng> readItems(int resource) throws JSONException {
-        ArrayList<LatLng> list = new ArrayList<LatLng>();
-        InputStream inputStream = getResources().openRawResource(resource);
-        String json = new Scanner(inputStream).useDelimiter("\\A").next();
-        JSONArray array = new JSONArray(json);
-        for (int i = 0; i < array.length(); i++) {
-            JSONObject object = array.getJSONObject(i);
-            double lat = object.getDouble("lat");
-            double lng = object.getDouble("lng");
-            list.add(new LatLng(lat, lng));
-        }
-        return list;
     }
 
     private ArrayList<LatLng> fileToList() {

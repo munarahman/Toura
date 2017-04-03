@@ -79,7 +79,7 @@ public class PublicSafetyMapActivity extends AppCompatActivity implements OnMapR
     private void connectMap() {
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+                .findFragmentById(R.id.public_map);
         mapFragment.getMapAsync(this);
     }
 
