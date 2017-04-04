@@ -2,12 +2,9 @@ package com.example.muna.toura;
 
 import android.content.Intent;
 import android.location.Location;
-import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.webkit.WebView;
-import android.widget.Button;
 import android.widget.TabHost;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -18,12 +15,10 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.TileOverlay;
 import com.google.android.gms.maps.model.TileOverlayOptions;
 import com.google.maps.android.heatmaps.HeatmapTileProvider;
 
-import java.io.File;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -154,10 +149,6 @@ public class PublicSafetyMapActivity extends AppCompatActivity implements OnMapR
             // set the radius of each dot
             mProvider.setRadius(20);
         }
-    }
-
-    private void removeHeatMap() {
-        mOverlay.remove();
     }
 
 

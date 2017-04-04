@@ -81,7 +81,7 @@ public class TourGuideListActivity extends AppCompatActivity {
         mainTabHost.getTabWidget().getChildAt(3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent().setClass(getApplicationContext(), ProfileActivity.class);
+                Intent intent = new Intent().setClass(getApplicationContext(), TravellerActivity.class);
                 startActivity(intent);
             }
         });

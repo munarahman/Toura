@@ -115,6 +115,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
             android:paddingTop="6dp"
+            android:paddingBottom="16dp"
             android:textSize="18sp" />
 
 

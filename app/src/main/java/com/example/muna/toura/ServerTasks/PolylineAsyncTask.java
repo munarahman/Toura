@@ -1,10 +1,8 @@
 package com.example.muna.toura.ServerTasks;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.os.AsyncTask;
 
-import com.example.muna.toura.R;
 import com.google.android.gms.maps.model.LatLng;
 
 import org.json.JSONArray;
@@ -26,7 +24,7 @@ import java.util.List;
 
 public class PolylineAsyncTask extends AsyncTask<String, Void, List<LatLng>> {
 
-    public static final String baseURL = "https://roads.googleapis.com/v1/snapToRoads?key=AIzaSyBsjfxWUybZ1QsI8EKROhMQSqxZVr0uWdY";
+    public static final String baseURL ="https://roads.googleapis.com/v1/snapToRoads?key=AIzaSyBsjfxWUybZ1QsI8EKROhMQSqxZVr0uWdY&interpolate=true&path=";
     private HttpURLConnection conn = null;
     public AsyncResponse delegate = null;
     private Activity callingActivity;
@@ -66,24 +64,19 @@ public class PolylineAsyncTask extends AsyncTask<String, Void, List<LatLng>> {
                 while ((line = br.readLine()) != null) {
                     json += line;
                 }
-                System.out.println("******");
+
                 JSONObject jsonObj = new JSONObject(json);
                 JSONArray jsonList = (JSONArray) jsonObj.get("snappedPoints");
 
-                int i;
-
-                for (i = 0; i < jsonList.length(); i++) {
+                for (int i = 0; i < jsonList.length(); i++) {
                     double lat = (double) ((JSONObject)((JSONObject) jsonList.get(i)).get("location")).get("latitude");
                     double lng = (double) ((JSONObject)((JSONObject) jsonList.get(i)).get("location")).get("longitude");
 
                     finalArr.add(new LatLng(lat, lng));
                 }
-                System.out.println(jsonObj);
-                System.out.println(finalArr.toString());
 
                 br.close();
             }
-
 
         } catch (MalformedURLException e) {
             e.printStackTrace();

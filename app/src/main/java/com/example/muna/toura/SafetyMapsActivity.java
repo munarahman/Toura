@@ -3,7 +3,6 @@ package com.example.muna.toura;
 import android.content.Intent;
 import android.location.Location;
 import android.os.Environment;
-import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -30,15 +29,10 @@ import com.google.android.gms.maps.model.TileOverlay;
 import com.google.android.gms.maps.model.TileOverlayOptions;
 import com.google.maps.android.heatmaps.HeatmapTileProvider;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -265,7 +259,7 @@ public class SafetyMapsActivity extends AppCompatActivity implements OnMapReadyC
         LatLng currentLatLng = new LatLng(
                 mLastLocation.getLatitude(), mLastLocation.getLongitude());
         mMap.moveCamera(CameraUpdateFactory.newLatLng(currentLatLng));
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(currentLatLng, 12.0f));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(currentLatLng, 10.0f));
         mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
             @Override
             public void onMapClick(LatLng latLng) {
@@ -322,7 +316,7 @@ public class SafetyMapsActivity extends AppCompatActivity implements OnMapReadyC
             mOverlay = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(mProvider));
 
             // set the radius of each dot
-            mProvider.setRadius(75);
+            mProvider.setRadius(45);
         }
     }
 

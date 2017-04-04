@@ -61,7 +61,8 @@
         <activity android:name=".TourActivity" />
         <activity android:name=".TourGuideActivity" />
         <activity android:name=".TourGuideListActivity" />
-        <activity android:name=".PublicSafetyMapActivity"></activity>
+        <activity android:name=".PublicSafetyMapActivity" />
+        <activity android:name=".TravellerActivity"></activity>
     </application>
 
 </manifest>
