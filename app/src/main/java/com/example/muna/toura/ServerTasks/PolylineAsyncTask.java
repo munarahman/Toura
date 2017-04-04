@@ -5,7 +5,9 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 
 import com.example.muna.toura.R;
+import com.google.android.gms.maps.model.LatLng;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -15,12 +17,14 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by christopherarnold on 2017-04-03.
  */
 
-public class PolylineAsyncTask extends AsyncTask<String, Void, String> {
+public class PolylineAsyncTask extends AsyncTask<String, Void, List<LatLng>> {
 
     public static final String baseURL = "https://roads.googleapis.com/v1/snapToRoads?key=AIzaSyBsjfxWUybZ1QsI8EKROhMQSqxZVr0uWdY";
     private HttpURLConnection conn = null;
@@ -34,12 +38,14 @@ public class PolylineAsyncTask extends AsyncTask<String, Void, String> {
     }
 
     public interface AsyncResponse {
-        void processFinish(String serverResponse);
+        void processFinish(List<LatLng> serverResponse);
     }
 
     @Override
-    protected String doInBackground(String... params) {
+    protected List<LatLng> doInBackground(String... params) {
         String queryString = params[0];
+
+        ArrayList<LatLng> finalArr = new ArrayList<>();
 
         try {
             URL url = new URL(baseURL + queryString);
@@ -57,18 +63,23 @@ public class PolylineAsyncTask extends AsyncTask<String, Void, String> {
                 String json = "";
                 String line;
 
-                try {
-                    while ((line = br.readLine()) != null) {
-                        json += line;
-                    }
-                    System.out.println("******");
-                    JSONObject jsonObj = new JSONObject(json);
-                    System.out.println(jsonObj);
-                    System.out.println(jsonObj.get("snappedPoints"));
-
-                } catch (JSONException e) {
-                    e.printStackTrace();
+                while ((line = br.readLine()) != null) {
+                    json += line;
                 }
+                System.out.println("******");
+                JSONObject jsonObj = new JSONObject(json);
+                JSONArray jsonList = (JSONArray) jsonObj.get("snappedPoints");
+
+                int i;
+
+                for (i = 0; i < jsonList.length(); i++) {
+                    double lat = (double) ((JSONObject)((JSONObject) jsonList.get(i)).get("location")).get("latitude");
+                    double lng = (double) ((JSONObject)((JSONObject) jsonList.get(i)).get("location")).get("longitude");
+
+                    finalArr.add(new LatLng(lat, lng));
+                }
+                System.out.println(jsonObj);
+                System.out.println(finalArr.toString());
 
                 br.close();
             }
@@ -78,11 +89,14 @@ public class PolylineAsyncTask extends AsyncTask<String, Void, String> {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
-        return "test";
+
+        return finalArr;
     }
     @Override
-    protected void onPostExecute(String result) {
+    protected void onPostExecute(List<LatLng> result) {
         delegate.processFinish(result);
     }
 }

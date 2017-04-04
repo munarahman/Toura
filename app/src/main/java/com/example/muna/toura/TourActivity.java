@@ -28,6 +28,7 @@ import com.google.maps.android.heatmaps.HeatmapTileProvider;
 import org.json.JSONObject;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class TourActivity extends AppCompatActivity implements OnMapReadyCallback,
@@ -208,18 +209,21 @@ public class TourActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         PolylineAsyncTask pat = new PolylineAsyncTask(this, new PolylineAsyncTask.AsyncResponse() {
             @Override
-            public void processFinish(String serverResponse) {
+            public void processFinish(List<LatLng> serverResponse) {
 
+                Polyline line = mMap.addPolyline(new PolylineOptions()
+                        .addAll(serverResponse)
+                        .width(10)
+                        .color(Color.BLUE));
             }
         });
 
         pat.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR,
-                "&path=60.170880,24.942795|60.170879,24.942796|60.170877,24.942796");
+//                "&path=60.170880,24.942795|60.170879,24.942796|60.170877,24.942796");
+                "&path=43.656683,-79.406539|43.655746,-79.404136|43.655296,-79.402479&interpolate=true");
 
-//        Polyline line = mMap.addPolyline(new PolylineOptions()
-//                .add(new LatLng(43.654524,-79.401457), new LatLng(43.653373,-79.401562))
-//                .width(5)
-//                .color(Color.RED));
+
+
 
 //        addHeatMap();
     }

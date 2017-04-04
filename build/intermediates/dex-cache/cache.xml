@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="640991de77be48ce4362cbc89463cbfdd289d0e1">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_89bcee8546c080d9a79197b773a65ac0dfa09047/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/christopherarnold/Documents/School/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_93ad54386f1167473f386ec43539d87de620225b/classes.dex" />
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fb5b3fd16a269f86e26b8685f5b59a088ebd24ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="54232f0cd9b5d084eb8bfa2f753e55df6b2e80bb">
+        <dex dex="/Users/Muna/Documents/CSC491/Toura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2cc585bb8dcae1cacf35ad5f9c48d8b1d586a58a/classes.dex" />
     </item>
 
 </items>
