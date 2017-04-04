@@ -15,19 +15,19 @@ public class TourGuideActivity extends AppCompatActivity {
 
     private String tourGuideName;
     private String[] tg1 = {"Terry", "Toronto", "English, Cantonese", "terry@mail.com",
-            "Engineer", "Hiking, Bird Watching", "Kensington Market"};
+            "Engineer", "Hiking, Bird Watching", "Kensington Market", "Female"};
     private String[] tg2 = {"Mags", "Toronto", "English, French, Cantonese", "mags@mail.com",
-            "Data Scientist", "Acrobatics, Knitting", "Distillery District"};
+            "Data Scientist", "Acrobatics, Knitting", "Distillery District", "Female"};
     private String[] tg3 = {"Darsan", "Scarborough", "English, Hindi", "darsan@mail.com",
-            "Doctor", "Eating chocolate", "Scarborough Bluffs"};
+            "Doctor", "Eating chocolate", "Scarborough Bluffs", "Male"};
     private String[] tg4 = {"Lindsey", "Toronto", "English", "lindsey@mail.com",
-            "Game Developer", "Kick Boxing, Music Remixes", "Centre Island"};
+            "Game Developer", "Kick Boxing, Music Remixes", "Centre Island", "Female"};
     private String[] tg5 = {"Marina", "Mississauga", "English, Arabic, French, Italian", "marina@mail.com",
-            "Engineer", "Languages", "Gay Village"};
+            "Engineer", "Languages", "Gay Village", "Female"};
     private String[] tg6 = {"Albert", "North York", "English, Indonesian", "albert@mail.com",
-            "Data Scientist", "Data visualization", "Pacific Mall"};
+            "Data Scientist", "Data visualization", "Pacific Mall", "Male"};
     private String[] tg7 = {"Steffi", "Toronto", "English, Malay, Mandarin, Spanish", "steffi@mail.com",
-            "Engineer", "Yoga", "The Junction"};
+            "Engineer", "Yoga", "The Junction", "Female"};
 
     private Map<String, String[]> tourGuides;
 
@@ -52,6 +52,7 @@ public class TourGuideActivity extends AppCompatActivity {
 
         if (tourGuides.containsKey(tourGuideName)) {
             final String[] tourGuide = tourGuides.get(tourGuideName);
+            ((TextView) findViewById(R.id.gender)).setText(tourGuide[7]);
             ((TextView) findViewById(R.id.from)).setText(tourGuide[1]);
             ((TextView) findViewById(R.id.language)).setText(tourGuide[2]);
             ((TextView) findViewById(R.id.email)).setText(tourGuide[3]);

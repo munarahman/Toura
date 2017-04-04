@@ -16,6 +16,24 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/gender_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:text="Gender"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="6dp"
+        android:textSize="18sp" />
+
+    <TextView
         android:id="@+id/from_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
