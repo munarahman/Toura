@@ -3,6 +3,7 @@ package com.example.muna.toura;
 import android.content.Intent;
 import android.graphics.Color;
 import android.location.Location;
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.widget.TabHost;
 import android.widget.TextView;
 
+import com.example.muna.toura.ServerTasks.PolylineAsyncTask;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
@@ -22,6 +24,8 @@ import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.android.gms.maps.model.TileOverlay;
 import com.google.maps.android.heatmaps.HeatmapTileProvider;
+
+import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -201,6 +205,16 @@ public class TourActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(location));
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(location, 17.0f));
+
+        PolylineAsyncTask pat = new PolylineAsyncTask(this, new PolylineAsyncTask.AsyncResponse() {
+            @Override
+            public void processFinish(String serverResponse) {
+
+            }
+        });
+
+        pat.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR,
+                "&path=60.170880,24.942795|60.170879,24.942796|60.170877,24.942796");
 
 //        Polyline line = mMap.addPolyline(new PolylineOptions()
 //                .add(new LatLng(43.654524,-79.401457), new LatLng(43.653373,-79.401562))
